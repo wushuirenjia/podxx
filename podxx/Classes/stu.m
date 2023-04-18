@@ -13,4 +13,8 @@
     NSLog(@"hello");
 }
 
+- (void)gogogo {
+    NSLog(@"gogogo");
+}
+
 @end
