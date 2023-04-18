@@ -1,6 +1,0 @@
-framework module podxx {
-  umbrella header "podxx-umbrella.h"
-
-  export *
-  module * { export * }
-}
