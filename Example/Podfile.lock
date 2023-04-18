@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - podxx (0.1.0):
+    - AFNetworking (~> 2.3)
+    - SDWebImage
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+
+DEPENDENCIES:
+  - podxx (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  podxx:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 9d57de7506959955d82fb5274ee4bec86b930e52
+  podxx: b25657cdfeecbd4e0bbb38d6d1208d6f969e2dbd
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+
+PODFILE CHECKSUM: 1d688fee49aa0e5af0d991a0352a82ec1538059a
+
+COCOAPODS: 1.11.2
